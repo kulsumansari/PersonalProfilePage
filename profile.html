@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+        crossorigin="anonymous"/>
+    <link href="./style/style.css" rel="stylesheet">
+    
+    <script src="./src/menu.js" async></script>
+    <link href="./images/logo.png" rel="icon">
+    <title>Kulsum's Profile</title>
+</head>
+<body>
+    <div class="navigation">
+        <div class="company-logo">
+            <a href="https://anonyda.github.io/hidden-gems/#landing">
+                <img src="./images/logo.png" alt="company-logo">
+            </a>
+        </div>
+        <ul class="nav-container">
+            <li class="nav-item"><a href="#landing" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="#reachUs" class="btn">Contact Us</a></li>
+        </ul>
+        <div class="ham-menu">
+            <div class="menu" onclick="menuToggle()">
+                <i class="fas fa-bars fa-3x" ></i>
+            </div>
+            <div id="menu-links">
+                <a href="#about" >About</a></li>                      
+                <a href="#skills">Skills</a></li>               
+                <a href="#portfolio">Portfolio</a></li>
+                <a href="#reachUs">Contact Us</a></li>                  
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="banner" id="landing">
+        <div class="banner-content">
+            <h1 class="banner-heading">Kulsum Ansari</h1>
+            <p class="banner-tagline">I am<span class="anime">Developer</span></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="about-me shadow-container scroll" id="about">
+            <h1>ABOUT ME</h1>
+            <div class="details">
+                <div class="my-image"><img src="./images/myImage.jpg" alt="" srcset=""></div>
+                <div class="my-details">
+                    <p>Name: Kulsum Ansari</p>
+                    <p>D.O.B: 22/11/1998</p>
+                    <p>Phone: +91-9011223344</p>
+                    <p>Email:kul123@gmail.com</p>
+                 </div>
+    
+            </div>
+            <div class="para">
+                <h3>Hello There!!</h3>
+                <p>I'm Kulsum, A software engineer,can bring solutions to your  business problems through problem solving skills, Give Jewel like shine to your business. </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nostrum aliquam esse, sint, minus consequuntur soluta tempora dolorem molestiae enim et modi corrupti. Laboriosam perspiciatis molestias error aperiam? Commodi, tempora!</p>
+                <p>
+                    <a href="#"><i class="fas fa-user-circle fa-2x"></i></a>
+                    <a href="#"><i class="fab fa-linkedin  fa-2x" ></i></a>
+                    <a href="#"><i class="fab fa-github fa-2x" ></i></a>
+                    <a href="#"><i class="fab fa-instagram  fa-2x"></i></a></p>
+            </div>
+        </div>
+    
+        
+        <div class="skill-container scroll" id="skills">
+            <h1>SKILLS</h1>
+            <div class="skill-1 skills">
+                <p>HTML</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 90%" ></div>
+                </div> 
+            </div>
+            <div class="skill-2 skills">
+                <p>CSS</p>
+                <div class="progress">
+                    <div class="progress-bar"  style="width: 75%" ></div>
+                </div> 
+            </div>
+            <div class="skill-3 skills">
+                <p>Javascript</p>
+                <div class="progress">
+                    <div class="progress-bar"  style="width: 65%" ></div>
+                </div> 
+            </div>
+            <div class="skill-4 skills">
+                <p>C/C++</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 80%" ></div>
+                </div> 
+            </div>
+            <div class="skill-5 skills">
+                <p>JAVA</p>
+                <div class="progress">
+                    <div class="progress-bar"  style="width: 79%" ></div>
+                </div> 
+            </div>
+            <div class="skill-6 skills">
+                <p>Python</p>
+                <div class="progress">
+                    <div class="progress-bar"  style="width: 60%" ></div>
+                </div> 
+            </div>
+            <div class="skill-7 skills">
+                <p>MySQL</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 85%" ></div>
+                </div> 
+            </div>
+            <div class="skill-8 skills">
+                <p>MongoDB</p>
+                <div class="progress">
+                    <div class="progress-bar" style="width: 60%" ></div>
+                </div> 
+            </div>
+        </div>
+
+        <div class="portfolio-container scroll" id="portfolio">
+            <div class="portfolio-head"><h1>PROJECTS</h1></div>
+            <div class="project-cards">
+                <div class="card">
+                    <img src="./images/shopping.jpg" alt="" >
+                    <div class="font-bold overlay">
+                        <h3>Online shopping Website</h3><br>
+                        <a class="btn" href="">Demo</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/network2.png" alt="" >
+                    <div class="font-bold overlay">
+                        <h3>Network Visualization</h3><br>
+                        <a class="btn" href="">Demo</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/resume.jpg" alt="" >
+                    <div class="font-bold overlay">
+                        <h3>Online Resume Builder</h3><br>
+                        <a class="btn" href="">Demo</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./images/chatbot.jpg" alt="" >
+                    <div class="font-bold overlay">
+                        <h3> Artificial Intelligent Chatbot </h3><br>
+                        <a class="btn" href="">Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shadow-container scroll">
+            
+            <div class="reach-me" id="reachUs">
+                
+                <div class="reach-me-form">
+                    <h1> Get in Touch</h1>
+                    <input type="text" placeholder="First Name">
+                    <input type="text" placeholder="Last Name"><br>
+                    <input type="email" placeholder="Email"><br>
+                    <textarea placeholder="Message..." rows="10"></textarea>
+                    <a href="" class="btn"><i class="fas fa-paper-plane"></i>&nbsp;Send</a>
+                </div>
+                <div class="find-me">
+                    <h1>Find Us</h1>
+                    <p><i class="far fa-envelope"></i>&nbsp;kul123@hiddengems.com</p>
+                    <p><i class="fas fa-phone"></i>&nbsp;+91 90001 80002</p>
+                    
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25582.521092484614!2d72.95915902639987!3d19.291094018490938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b8fcfe76fd59%3A0xcf367d85f7c50283!2sThane%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1626608598796!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+    <div class="footer">
+        <div>
+            <div class="footer-logo">
+                <a href="https://anonyda.github.io/hidden-gems/#landing">
+                    <img src="./images/logo.png" alt="company-logo">
+                </a>
+            </div>
+            <div class="address"><i class="fas fa-map-marked-alt footer-icons"></i><span class="footer-content"> 9th Floor, New Viva College,
+                    New Viva College Rd, Opposite DMart, Vartak Ward,Virar West, 401303</span>
+            </div>
+        </div>
+        <div class="footer-links">
+            <div><i class="far fa-envelope footer-icons"></i><span class="footer-content">kul123@hdgems.com</span></div>
+            <div><i class="fas fa-phone footer-icons" ></i><span class="footer-content">+91 90001 80002</span></div>
+
+            <div class="social-links">
+                <a href="#"><i class="fas fa-user-circle footer-icons"></i></a>
+                <a href="#"><i class="fab fa-linkedin  footer-icons" ></i></a>
+                <a href="#"><i class="fab fa-github footer-icons" ></i></a>
+                <a href="#"><i class="fab fa-instagram  footer-icons"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
